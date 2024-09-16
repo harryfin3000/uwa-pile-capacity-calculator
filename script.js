@@ -1,8 +1,26 @@
-// Add your calculator logic here
-console.log("UWA Pile Capacity Calculator loaded");
+function openTab(tabName) {
+    var i, tabContent;
+    tabContent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+}
 
-// Example function (replace with your actual calculation logic)
-function calculatePileCapacity() {
-    // Your calculation logic here
-    console.log("Calculating pile capacity...");
+// Open the first tab by default
+document.addEventListener('DOMContentLoaded', function() {
+    openTab('driven');
+});
+
+// Add your calculation functions here for each type of pile
+function calculateDrivenPileCapacity() {
+    // Implement calculation for driven piles
+}
+
+function calculateBoredPileCapacity() {
+    // Implement calculation for bored/CFA piles
+}
+
+function calculateScrewPileCapacity() {
+    // Implement calculation for screw piles
 }

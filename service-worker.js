@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uwa-pile-capacity-calculator/precache-manifest.cc7fb3ccdf2e8ae7802db86554d9f850.js"
+  "/uwa-pile-capacity-calculator/precache-manifest.9d3415f67b1ae543eb85ee0594906414.js"
 );
 
 self.addEventListener('message', (event) => {

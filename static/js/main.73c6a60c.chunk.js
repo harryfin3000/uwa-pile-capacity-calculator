@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{12:function(e,t,n){},13:function(e,t,n){"use strict";n.r(t);var a=n(0),l=n.n(a),r=n(2),c=n.n(r);n(12);var o=()=>l.a.createElement("div",null,l.a.createElement("h1",null,"UWA Pile Capacity Calculator"),l.a.createElement("p",null,"This is a test render."));c.a.createRoot(document.getElementById("root")).render(l.a.createElement(l.a.StrictMode,null,l.a.createElement(o,null)))},3:function(e,t,n){e.exports=n(13)}},[[3,1,2]]]);
-//# sourceMappingURL=main.73c6a60c.chunk.js.map
